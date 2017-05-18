@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:key="xAxisShakeSensitivity"
+        android:title="X-Axis Shake Sensitivity"
+        android:defaultValue="10"
+        />
+
+    <EditTextPreference
+        android:key="yAxisShakeSensitivity"
+        android:title="Y-Axis Shake Sensitivity"
+        android:defaultValue="10"
+        />
+
+    <EditTextPreference
+        android:key="zAxisShakeSensitivity"
+        android:title="Z-Axis Shake Sensitivity"
+        android:defaultValue="10"
+        />
+
+    <EditTextPreference
+        android:key="ballMovingSpeed"
+        android:title="Ball Moving Speed"
+        android:defaultValue="10"
+        />
+
+</PreferenceScreen>

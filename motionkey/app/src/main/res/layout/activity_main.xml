@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="40dp"
+    android:paddingLeft="40dp"
+    android:paddingRight="40dp"
+    tools:context="edu.uw.dengz6.motionkey.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        >
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40dp"
+            android:hint="Some dummy text"
+            android:textSize="16sp"
+            android:inputType="text"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40dp"
+            android:hint="Some dummy number"
+            android:textSize="16sp"
+            android:inputType="number"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Instruction"
+            android:textSize="16sp"
+            />
+
+        <TextView
+            android:id="@+id/xAxisInstruction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text=""
+            android:textSize="16sp"
+            />
+
+        <TextView
+            android:id="@+id/yAxisInstruction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text=""
+            android:textSize="16sp"
+            />
+
+        <TextView
+            android:id="@+id/zAxisInstruction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text=""
+            android:textSize="16sp"
+            />
+
+        <TextView
+            android:id="@+id/ballMovingSpeed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="16sp"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>
